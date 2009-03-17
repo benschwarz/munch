@@ -1,0 +1,27 @@
+<h1>Search using some pre-defined ingredients</h1>
+<ul>
+  <li><a href="/">Anything</a></li>
+  <li><a href="/ingredient/chicken">Chicken</a></li>
+  <li><a href="/ingredient/lamb">Lamb</a></li>
+  <li><a href="/ingredient/egg">Egg</a></li>
+  <li><a href="/ingredient/rice">Rice</a></li>
+  <li><a href="/ingredient/tomato">Tomato</a></li>
+</ul>
+
+<form action="/ingredient" method="post">
+  <fieldset>
+    <legend>Specify your own ingredient</legend>
+    <input type="text" name="ingredient" value="<%= params[:ingredient] %>" />
+    <button type="submit">
+      Search
+    </button>
+  </fieldset>
+</form>
+    
+
+<h2>All recipies <span>(<%= @recipes.size %>)</span></h2>
+<ul>
+<% for recipe in @recipes %>
+  <li><a href="<%= recipe["link"] %>"><%= recipe["title"] %></a></li>
+<% end %>
+</ul>
