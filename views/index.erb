@@ -22,9 +22,14 @@
   <li><a href="/ingredient/tomato">Tomato</a></li>
 </ul>
 
-<h2>All recipies <span>(<%= @recipes.size %>)</span></h2>
-<ul>
-<% for recipe in @recipes %>
-  <li><a href="<%= recipe["link"] %>"><%= recipe["title"] %></a></li>
+<% unless @ingredient.nil? %>
+  <h2>All recipies <span>(<%= @recipes.size %>)</span></h2>
+  <ul id="recipes">
+  <% for recipe in @recipes %>
+    <li>
+      <a href="<%= recipe["link"] %>"><%= recipe["title"] %></a>
+      <p class="source"><%= recipe["link"] %></p>
+    </li>
+  <% end %>
+  </ul>
 <% end %>
-</ul>

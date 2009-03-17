@@ -18,7 +18,6 @@ module Feed
 end
 
 get '/' do
-  @recipes = Feed.get
   erb :index
 end
 
@@ -29,9 +28,7 @@ get '/ingredient/*' do
 end
 
 post '/ingredient' do
-  @ingredient = params[:ingredient]
-  @recipes = Feed.get @ingredient
-  erb :index
+  redirect "/ingredient/#{params[:ingredient]}"
 end
 
 get '/rss' do

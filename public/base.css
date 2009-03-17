@@ -5,10 +5,12 @@ h1 { font-size: 3em; text-transform: lowercase; margin: 1em 0; }
 h1 a { color: black; text-decoration: none; }
 h2 { font-size: 1.3em; text-transform: lowercase; margin: 0.5em 0; }
 p { margin: 0.3em 0; color: #999; font-size: 0.8em; }
-li { margin: 0.3em 0; }
+li { margin: 0.5em 0; }
 
 a { color: #00A0C6; }
 form { margin: 2em 0; padding: 2em; background-color: #eee; }
 form legend { color: #666; font-size: 0.9em; font-style:italic; }
 form input { font-size: 3em; font-family: Helvetica; }
 form button { background-color: transparent; border: none; color: #999; font-size: 2em; }
+
+ul#recipes li { margin-bottom: 1em; }
