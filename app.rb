@@ -25,12 +25,14 @@ get '/' do
 end
 
 get '/ingredient/*' do
-  @recipes = Feed.get params[:splat].first
+  @ingredient = params[:splat].first
+  @recipes = Feed.get
   erb :index
 end
 
 post '/ingredient' do
-  @recipes = Feed.get params[:ingredient]
+  @ingredient = params[:ingredient]
+  @recipes = Feed.get 
   erb :index
 end
 

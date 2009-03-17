@@ -2,9 +2,13 @@
   <head>
     <title>Munch</title>
     <link href="/rss" rel="alternate" type="application/rss+xml" />
+    <link rel="stylesheet" href="/reset.css" type="text/css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="/base.css" type="text/css" media="screen" charset="utf-8">
   </head>
   <body>
-    <%= yield %>
+    <div id="container">
+      <%= yield %>
+    </div>
   </body>
 </html>
 
