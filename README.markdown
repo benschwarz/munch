@@ -38,3 +38,9 @@ Run it with `ruby app.rb`, `rackup config.ru` or use shotgun `shotgun` (my prefe
 YQL was used to parse ["The cook and the chef"](http://www.abc.net.au/tv/cookandchef/) web site
 
 You can add as many more as you like to your own 'pipe' and the app doesn't have to change!
+
+## Pipes?
+
+They get pretty complex and its a little hard to get into the mindset, but I found that I could stitch data together faster than I could write parsers, so...
+
+![It looks like this](http://img.skitch.com/20090317-x1dbwphkap6af1jit8hsx8rux5.jpg)
