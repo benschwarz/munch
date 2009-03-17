@@ -29,3 +29,10 @@ Ensure you have Sinatra and the Json gems
     sudo gem install sinatra json
 
 Run it with `ruby app.rb`, `rackup config.ru` or use shotgun `shotgun` (my preference)
+
+
+## YQL?
+
+YQL was used to parse ["The cook and the chef"](http://www.abc.net.au/tv/cookandchef/) web site
+
+You can add as many more as you like to your own 'pipe' and the app doesn't have to change!
