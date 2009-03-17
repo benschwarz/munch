@@ -11,7 +11,7 @@ module Feed
     
     def get(ingredient = '')
       uri = "#{base}&_render=json" 
-      uri << "&ingredient=#{ingredient}" unless ingredient.empty?
+      uri << "&ingredient=#{URI.escape(ingredient)}" unless ingredient.empty?
       JSON.parse(open(uri).read)["value"]["items"]
     end    
   end
