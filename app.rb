@@ -6,8 +6,6 @@ require 'json'
 module Feed
   class << self
     def base
-      # Make your own or clone mine
-      # http://pipes.yahoo.com/pipes/pipe.info?_id=e24258e68f6016bb6137f737552a203e
       "http://pipes.yahoo.com/pipes/pipe.run?_id=e24258e68f6016bb6137f737552a203e"
     end
     

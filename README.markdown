@@ -20,3 +20,4 @@ For the time I spent using Yahoo pipes, I probably could've written parser to do
 
 Now that I have said feed... You can mess about with [Yahoo Pipes](http://pipes.yahoo.com/pipes/), [YQL](http://developer.yahoo.com/yql/), [Sinatra](http://www.sinatrarb.com/) and find something to make for dinner!
 
+I still don't have a new blog, if I had one this would probably be a post; I'd have thought long and hard about what I said and how it came across. But I don't have one, so read the source code and make sure you [checkout the pipe](http://pipes.yahoo.com/pipes/pipe.info?_id=e24258e68f6016bb6137f737552a203e) that I used to make it.
