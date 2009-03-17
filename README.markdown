@@ -3,7 +3,7 @@
 # Munch!
 ### Yahoo Pipes to mash the web into usable peices
 
-![Screenshot of munch in action](http://img.skitch.com/20090317-r9mfxr49gexsng7iac31diywiy.jpg)
+![Screenshot of munch in action](http://img.skitch.com/20090317-jtkffs8gj1kkh34h7g6xfpkjut.jpg)
 
 So, I needed a project, it was lunch time and I was already thinking about food, so I got
 stuck into mentally planning my sinatra application, it would be fed straght from the cloud.

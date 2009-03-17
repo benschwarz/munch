@@ -38,3 +38,6 @@ get '/rss' do
   redirect "#{Feed.base}&_render=rss"
 end
 
+get '/rss/*' do
+  redirect "#{Feed.base}&_render=rss&ingredient=#{params[:splat]}"
+end

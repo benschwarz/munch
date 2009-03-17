@@ -1,4 +1,4 @@
-<h1>Munch</h1>
+<h1><a href="/">Munch</a></h1>
 
 <form action="/ingredient" method="post">
   <fieldset>
@@ -8,11 +8,13 @@
       Search
     </button>
   </fieldset>
+  <% unless @ingredient.nil? %>
+    <p>Subscribe to <a href="/rss/<%= @ingredient %>">this search</a> <span>(RSS)</span></p>
+  <% end %>
 </form>
 
 <h2>Search using some predefined ingredients</h2>
 <ul>
-  <li><a href="/">Anything</a></li>
   <li><a href="/ingredient/chicken">Chicken</a></li>
   <li><a href="/ingredient/lamb">Lamb</a></li>
   <li><a href="/ingredient/egg">Egg</a></li>
